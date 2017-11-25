@@ -338,7 +338,7 @@ loop:(NSString *)loop{
     }CGContextRestoreGState(context);
     UIGraphicsEndImageContext();
     if([self askType:qVAnLANGask]==2){
-        [qvae setIoMessage:0 text1:@"Export Animated GIF" text2:@"Finished"];
+        [qvae setIoMessage:0 text1:@"Export Animated GIF" text2:@"Saved in Camera roll."];
     }else{
         [qvae setIoMessage:0 text1:@"アニメGIF出力" text2:@"カメラロールに保存しました"];
     }
