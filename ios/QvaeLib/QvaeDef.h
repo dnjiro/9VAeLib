@@ -178,6 +178,7 @@ typedef enum {
     qVAcYSNOinp = 240,      //Yes No Alert（ios）
     qVAcYSOKinp = 241,      //OK Can Alert（ios）
     qVAcYSNCinp = 242,      //YesNoCan Alert（ios）
+    qVAcXERRinp = 251,      //Export Error（ios）
     qVAcALRTinp = 252,      //YesOnly Alert（ios）
 } QVAioType;
 
