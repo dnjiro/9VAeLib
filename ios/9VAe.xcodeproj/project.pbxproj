@@ -212,12 +212,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0440;
-				ORGANIZATIONNAME = "Ray Wenderlich";
-				TargetAttributes = {
-					355FFB1E15F5093F0062DF99 = {
-						DevelopmentTeam = 6JXZMLGDVB;
-					};
-				};
+				ORGANIZATIONNAME = 9vaeLab;
 			};
 			buildConfigurationList = 355FFB1915F5093F0062DF99 /* Build configuration list for PBXProject "9VAe" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -366,7 +361,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
-				DEVELOPMENT_TEAM = 6JXZMLGDVB;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrawPad/9VAe-Prefix.pch";
@@ -390,7 +385,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
-				DEVELOPMENT_TEAM = 6JXZMLGDVB;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DrawPad/9VAe-Prefix.pch";
