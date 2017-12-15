@@ -56,7 +56,12 @@ CGPoint tchFrm1,tchFrm2,tchTo1,tchTo2;
         qvae = [[QvaeLib alloc] init];
         [qvae qVAinit];
         [self setFontList];
-        [self askType:qVAnKANJset]; //Set Language to Kanji (for Japanese)
+        
+        [self askType:qVAnKANJset];   //Set Language to Kanji (for Japanese)
+        //[self askType:qVAnENGLISHset];    //Set Language to English
+        //[self askType:qVAnHIRAset];       //Set Language to Hiragana(Japanese)
+        //[self askType:qVAnDRAWONset];     //Drawing sequence Animation Mode ON
+        
         if(r0.size.width>600){
             [self askType:qVAnMENUINset]; //Set Normal menu
         }
