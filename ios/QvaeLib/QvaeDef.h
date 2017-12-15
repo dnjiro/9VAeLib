@@ -190,6 +190,8 @@ typedef enum {
     qVAnENGLISHset = 35,	//Set Language to English
     qVAnMENUOUTset = 36,	//Put half of the menu outside.(for iphone)
     qVAnMENUINset = 37,     //Normal menu (for ipad)
+    qVAnDRAWONset = 38,     //Drawing sequence Animation Mode ON
+    qVAnDRAWOFFset = 39     //Drawing sequence Animation Mode OFF
 } QVAaskType;
 
 /* Play command */
